@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Hoặc ES2018 nếu cần
+      "module": "commonjs",
+      
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["ES6", "DOM"],
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["node_modules/*", "*"]
+      },
+      "noImplicitAny": true,  
+      "declaration": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
